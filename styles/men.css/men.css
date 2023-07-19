@@ -1,0 +1,75 @@
+@import '../font.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1430px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(75, 75, 75);    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back {
+    opacity: 0.7;
+    font-size: 26px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    padding: 5px 0;
+    background: rgb(56, 56, 56);
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
+
+.nav__title {
+    color: rgb(255, 196, 47);
+    font-family: roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0px;
+}
+
+.nav__img {
+    display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center ;
+}
+
+.nav__img-link {
+    font-family: roboto;
+font-size: 25px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+
+}
