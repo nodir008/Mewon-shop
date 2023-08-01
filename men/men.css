@@ -66,10 +66,27 @@ letter-spacing: 0px;
         justify-content: center ;
 }
 
-.nav__img-link {
-    font-family: roboto;
+.nav__img-link {    
 font-size: 25px;
 font-weight: 400;
 color: rgb(255, 255, 255);
 
+}
+
+.form__btn-icon {
+    font-size: 27px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    
+}
+
+.nav__form-btn {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }

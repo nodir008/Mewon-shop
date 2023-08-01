@@ -538,10 +538,13 @@ text-transform: uppercase;
 font-family: sans;
 font-size: 20px;
 font-weight: 400;
+transition: .2s;
 }
 
 .footer__links-link:hover {
     text-decoration: underline;
+    
+    color: rgb(255, 196, 47);
 }
 
 .Link-title2 {
@@ -559,6 +562,33 @@ text-transform: uppercase;
 .phone__footer {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.footer__links-icon {
+    font-size: 30px;
+    margin-right: -10px;
+    color: #FFF;
+}
+
+.footer__links-link-gmail {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.footer__links-link-gmail-li {
+    display: flex;
+    align-items:center;
+}
+
+.footer__links-link-location-li {
+    display: flex;
+    align-items:center;
+}
+
+.footer__links-link-location {
+    font-size: 30px;
+    color: #FFF;
 }
 
 .footer__links-img {
@@ -572,10 +602,17 @@ letter-spacing: 2.5px;
 }
 
 .links__imgs-img {
-    font-size: 50px;
+    font-size: 47px;
+    padding: 5px;
     background: #FFF;
     color: #000;
     border-radius: 50%;
+    transition: .3s;
+}
+
+.links__imgs-img:hover {
+    background: rgb(255, 196, 47);
+    color: #fff;
 }
 
 .footer__links-imgs {
