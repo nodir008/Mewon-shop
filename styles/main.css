@@ -364,7 +364,8 @@ text-transform: uppercase;
 
 .section__card:hover .s__card_theme-img {
 z-index: 99;
-width: 330px;
+max-width: 330px;
+width: 100%;
 min-height: 330px;
 }
 

@@ -47,19 +47,20 @@ width: 100%;
     }
     
     .s__card_theme-img {
-        width: 300px;
-        height: 300px;
+        width: 260px;
+        height: 260px;
     }
+    
+    .section__card:hover .s__card_theme-img {
+        /* max-width: 280px; */
+        width: 280px;
+        min-height: 280px;
+        }
 
     .section__card_theme-links  {
         gap: 10px;
     }
 
-    .section__card:hover .s__card_theme-img {
-        z-index: 99;
-        width: 330px;
-        min-height: 330px;
-        }
 
         .section__card-theme {
             gap: 15px;
@@ -330,19 +331,22 @@ width: 100%;
         width: 200px;
         height: 200px;
     }
-
+    
     .section__card:hover .s__card_theme-img {
-        z-index: 99;
         width: 220px;
         min-height: 220px;
         }
-        
+
         .card__like {
             font-size: 20px;
         }
         
     .footer__links-none {
         display: none;
+    }
+    
+    .section__card:hover .theme__link-none {
+        font-size: 18px;
     }
 
 }
@@ -359,9 +363,8 @@ width: 100%;
     }
     
     .section__card:hover .s__card_theme-img {
-        /* max-width: 220px; */
-        width: 180px;
-        height: 180px;
+        width: 190px;
+        min-height: 190px;
         }
     
     .right__card-img {
@@ -450,6 +453,9 @@ width: 100%;
         padding: 10px;
     }
     
+    .section__card-like {
+        gap: 10px;
+    }
 
 
 
@@ -515,14 +521,14 @@ width: 100%;
     }
     
     .section__card:hover .s__card_theme-img {
-        /* max-width: 220px; */
-        width: 140px;
-        height: 140px;
+        width: 125px;
+        min-height: 125px;
         }
     
     .card__like {
-        padding: 10px;
-        font-size: 18px;
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 5px;
     }
     
     .card__img-none480 {
@@ -575,12 +581,21 @@ width: 100%;
     }
     
     .section__card:hover .section__card_theme-link{
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .footer__links {
         gap: 9px;
     }
+    
+    .section__card_theme-link {
+        font-size: 12px;
+    }
+    
+    .section__card_theme-link1 {
+        font-size: 14px;
+    }
+    
 
 
 }
@@ -599,6 +614,10 @@ width: 100%;
         right: 10px;
     }
     
+    .section__card-like {
+        right: 10px;
+    }
+   
     .left__card-none320 {
         display: none;
     }
@@ -612,6 +631,11 @@ width: 100%;
         width: 150px;
         height: 150px;
     }
+    
+    .section__card:hover .s__card_theme-img {
+        width: 150px;
+        min-height: 150px;
+        }
     
 }
 
