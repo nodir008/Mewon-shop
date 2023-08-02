@@ -100,6 +100,10 @@
 
 @media (max-width:1024px) {
 
+    .nav__links-link {
+        height: 50px;
+    }
+
     .left__card-img {
         max-width: 180px;
         width: 100%;
