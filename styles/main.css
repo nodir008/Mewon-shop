@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-    max-width: 1430px;
+    max-width: 1530px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -129,6 +129,8 @@ header {
 
 .img__link {
     margin-right: 10px;
+    background: none;
+    border: none;
 }
 
 .nav__links-link {
@@ -165,6 +167,8 @@ filter: drop-shadow(6px 6px 15px rgba(132, 132, 132, 0.30));
 font-size: 25px;
 font-weight: 400;
 color: rgb(255, 255, 255);
+background: none;
+border: none;
 
 }
 
@@ -181,9 +185,7 @@ color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
-.card__img-none {
-    display: none;
-}
+
 
 .left__card-img {
     border: 1px solid black;
@@ -327,14 +329,14 @@ text-transform: uppercase;
 .section .container {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 30px;
+    gap: 20px;
+    justify-content:center;
 }
 
 .s__card_theme-img {
-    height: 300px;
+    height: 220px;
     transition: .3s ;
-    max-width: 300px;
+    max-width: 220px;
     width: 100%;
     object-fit: contain;
 }
@@ -346,9 +348,9 @@ text-transform: uppercase;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    max-width: 445px;
+    max-width: 300px;
     width: 100%;
-    min-height: 600px;
+    min-height: 440px;
     background: darkgray;
     transition: 0.2s;
 }
@@ -364,9 +366,9 @@ text-transform: uppercase;
 
 .section__card:hover .s__card_theme-img {
 z-index: 99;
-max-width: 330px;
+max-width: 250px;
 width: 100%;
-min-height: 330px;
+min-height: 240px;
 }
 
 .section__card:hover .section__card-like {
@@ -394,8 +396,8 @@ min-height: 330px;
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 120px;
-height: 50px;
+    width: 100px;
+height: 40px;
 border-radius: 10px;
 background: #323232;
 color: #FFF;
@@ -475,12 +477,12 @@ text-transform: uppercase;
 
 .card__like {
 
-    font-size: 28px;
+    font-size: 24px;
     /* width: 50px; */
 /* min-height: 50px; */
 border-radius: 10px;
 background: #FFF;
-padding: 14px;
+padding: 13px;
 transition: .2s;
 color: #000;
 
