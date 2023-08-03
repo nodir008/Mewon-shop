@@ -413,3 +413,138 @@ color: rgb(255, 196, 47);
         font-size: 38px;
         color: rgb(255, 196, 47);
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* FOOTER */
+ /* FOOTER */
+ /* FOOTER */
+ /* FOOTER */
+ /* FOOTER */
+
+
+ footer {
+     position: relative;
+     background: #323232;
+     margin-top: 30px;
+ }
+
+ footer .container {
+     display: flex;
+     justify-content: space-between;
+     padding: 60px 15px;
+ }
+
+ .footer__links {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ .footer__link-title {
+     margin-bottom: 15px;
+     color: #FFF;
+     font-family: sans;
+     font-size: 32px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+
+ .footer__links-link {
+     color: #FFF;
+     font-family: sans;
+     font-size: 20px;
+     font-weight: 400;
+     transition: .2s;
+ }
+
+ .footer__links-link:hover {
+     text-decoration: underline;
+
+     color: rgb(255, 196, 47);
+ }
+
+ .Link-title2 {
+     margin-bottom: 20px;
+     color: #FFF;
+     font-family: sans;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 2.2px;
+     text-transform: uppercase;
+ }
+
+ .phone__footer {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+ }
+
+ .footer__links-icon {
+     font-size: 30px;
+     margin-right: -10px;
+     color: #FFF;
+ }
+
+ .footer__links-link-gmail {
+     font-size: 30px;
+     color: #FFF;
+ }
+
+ .footer__links-link-gmail-li {
+     display: flex;
+     align-items: center;
+ }
+
+ .footer__links-link-location-li {
+     display: flex;
+     align-items: center;
+ }
+
+ .footer__links-link-location {
+     font-size: 30px;
+     color: #FFF;
+ }
+
+ .footer__links-img {
+     margin-top: 10px;
+     color: #FFF;
+     font-family: sans;
+     font-size: 22px;
+     line-height: normal;
+     font-variant: all-small-caps;
+     letter-spacing: 2.5px;
+ }
+
+ .links__imgs-img {
+     font-size: 47px;
+     padding: 5px;
+     background: #FFF;
+     color: #000;
+     border-radius: 50%;
+     transition: .3s;
+ }
+
+ .links__imgs-img:hover {
+     background: rgb(255, 196, 47);
+     color: #fff;
+ }
+
+ .footer__links-imgs {
+     display: flex;
+     gap: 15px;
+ }
