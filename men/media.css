@@ -1,28 +1,113 @@
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
 
-@media (max-width: 1200px) {}
+    .section1__img {
+        height: 370px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .section1__img {
+        height: 330px;
+    }
+
+    .section1__card-uzs {
+        font-size: 20px;
+    }
+
+    .section1__card-icon {
+        font-size: 26px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .section1__card-icon2 {
+        font-size: 26px;
+        width: 50px;
+        height: 50px;
+        top: 70px;
+    }
+
+}
 
 @media (max-width: 1024px) {}
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+
+    .header__section-img {
+        height: 300px;
+    }
+
+    .section1__img {
+        height: 240px;
+    }
+
+    .section1__card-uzs {
+        font-size: 16px;
+    }
+
+    .section1-title {
+        font-size: 40px;
+    }
+
+    .section1__card_texts {
+        flex-direction: column;
+    }
+
+    .section1__card-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 22px;
+
+    }
+
+    .section1__card-icon2 {
+        top: 50px;
+        width: 35px;
+        height: 35px;
+        font-size: 22px;
+    }
+
+    .section1__card-icon:hover {
+        font-size: 26px;
+    }
+
+    .section1__card-icon2:hover {
+        font-size: 26px;
+    }
+
+}
 
 @media (max-width: 768px) {
 
     .nav .container {
         min-height: 40px;
     }
-    
+
     .nav__img {
         gap: 10px;
     }
 
-        .nav__img-link {
-            font-size: 20px;
-        }
+    .nav__img-link {
+        font-size: 20px;
+    }
 
-                .form__btn-icon {
-                    font-size: 20px;
-                }
+    .form__btn-icon {
+        font-size: 20px;
+    }
+
+    .header__section-img {
+        height: 200px;
+    }
+
+    .section1__card-none {
+        display: none;
+    }
+
+        .section1__card {
+            width: 32%;
+        }
 
 }
 
@@ -32,8 +117,35 @@
         display: none;
     }
 
+    .header__section-img {
+        height: 150px;
+    }
+
+        .section1__img {
+            height: 200px;
+        }
+
 }
 
-@media (max-width: 488px) {}
+@media (max-width: 488px) {
+
+    .header__section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__section-img1 {
+        /* height: 250px; */
+        grid-column: 2 span;
+    }
+
+                .section1__card-none2 {
+                    display: none;
+                }
+
+                                .section1__card {
+                                    width: 48%;
+                                }
+
+}
 
 @media (max-width: 320px) {}

@@ -47,6 +47,7 @@ header {
 }
 
 .hspan {
+    /* margin-top: 300px; */
     width: 100%;
     height: 2px;
     background: #fff;
@@ -114,15 +115,57 @@ color: rgb(255, 255, 255);
 
 .header__section {
     margin-top: 90px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+gap: 10px;
+position: relative;
 }
 
-.header__section .container {
+.header__section-img {
+    height: 400px;
+}
+
+.header__section-img1 {
+    width: 100%;
+    object-fit: cover;
+    grid-column: 2 span;
+    grid-row: 1 span;
+}.header__section-img2 {
+    width: 100%;
+    object-fit: cover;
+    grid-column: 1 span;
+    grid-row: 1 span;
+}.header__section-img3 {
+    width: 100%;
+    object-fit: cover;
+    grid-column: 1 span;
+    grid-row: 1 span;
+}.header__section-img4 {
+    width: 100%;
+    object-fit: cover;
+    grid-column: 1 span;
+    grid-row: 1 span;
+}.header__section-img5 {
+    width: 100%;
+    object-fit: cover;
+    grid-column: 1 span;
+    grid-row: 1 span;
+}.header__section-img6 {
+    width: 100%;
+    object-fit: cover;
+    grid-column: 2 span;
+    grid-row: 1 span;
+}
+
+
+/* .header__section .container {
     display: flex;
     gap: 30px;
     align-items: center;
-}
+} */
 
-.header__left-card {
+/* .header__left-card {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -275,7 +318,7 @@ color: rgb(255, 255, 255);
                 background: rgb(56, 56, 56);
                 bottom: 8%;
                 transform: rotate(45deg);
-}
+} */
 
 /*  */
 /*  */
@@ -299,6 +342,7 @@ color: rgb(255, 255, 255);
 
 .section1__img {
     height: 480px;
+    object-fit: cover;
 }
 
 .section1-title {
