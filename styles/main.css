@@ -457,7 +457,7 @@ justify-content: center;
 
 .section__card_theme-link1 {
     color: #000;
-font-family: sens;
+font-family: sans;
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
@@ -467,7 +467,7 @@ text-transform: uppercase;
 
 .section__card_theme-link {
     color: #323232;
-font-family: Montserrat;
+font-family: sans;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
