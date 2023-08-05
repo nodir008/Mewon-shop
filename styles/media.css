@@ -535,6 +535,10 @@
 }
 
 @media (max-width:488px) {
+    
+    .section__card-theme {
+        gap: 10px   ;
+    }
 
     .links__imgs-img {
         font-size: 30px;
@@ -718,14 +722,13 @@
         width: 100%;
     }
 
-    .s__card_theme-img {
-        width: 150px;
+    /* .s__card_theme-img {
+        width: 110px;
         height: 150px;
-    }
+    } */
 
     .section__card:hover .s__card_theme-img {
-        width: 150px;
-        min-height: 150px;
+        height: 150px;
     }
 
 }
