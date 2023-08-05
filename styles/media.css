@@ -319,6 +319,7 @@
     .footer__s .container {
         flex-direction: column;
         gap: 10px;
+        padding-top: 15px;
     }
 
 }
@@ -591,6 +592,29 @@
         
         .footer__my {
             bottom: 10px;
+        }
+        
+        .section2__theme-txt1 {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        
+        .section2__theme-title {
+            font-size: 14px;
+            
+        }
+        
+        .section2__title-text {
+            font-size: 12px;
+        }
+        
+        .section2__title-texts {
+            margin-bottom: 10px;
+        }
+        
+        .section2__text {
+            font-size: 14px;
+            line-height: 24px;
         }
 
 
