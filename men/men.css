@@ -468,6 +468,8 @@ font-size: 38px;
  }
 
  footer .container {
+    flex-wrap: wrap;
+    column-gap: 30px;
      display: flex;
      justify-content: space-between;
      padding: 60px 15px;
@@ -481,7 +483,7 @@ font-size: 38px;
 
  .footer__link-title {
      margin-bottom: 15px;
-     color: #FFF;
+     color: rgb(255, 196, 47);
      font-family: sans;
      font-size: 32px;
      font-weight: 700;
@@ -504,7 +506,7 @@ font-size: 38px;
 
  .Link-title2 {
      margin-bottom: 20px;
-     color: #FFF;
+     color: rgb(255, 196, 47);
      font-family: sans;
      font-size: 22px;
      font-style: normal;
@@ -573,4 +575,53 @@ font-size: 38px;
  .footer__links-imgs {
      display: flex;
      gap: 15px;
+ }
+ 
+ .footer__my {
+    display: flex;
+    gap: 30px;
+ }
+ 
+ .footer__my-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+ 
+ .footer__my-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ 
+ .footer__my-text {
+    max-width: 230px;
+    width: 100%;
+    color: #FFF;
+    font-family: sans;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ 
+ .footer__my-link {
+    color: rgb(255, 196, 47);
+    font-family: sans;
+    font-size: 25px;
+    font-weight: 700;
+ }
+ 
+ .footer__my-link::after {
+    content: '';
+    margin-top: 5px;
+    width: 170px;
+    height: 3px;
+    background: rgb(255, 196, 47);
+    display: block;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .3s;
+ }
+ 
+ .footer__my-link:hover::after {
+    transform: scaleX(1);
  }

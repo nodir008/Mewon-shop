@@ -639,3 +639,54 @@ letter-spacing: 2.5px;
     font-size: 25px;
     color: rgb(255, 208, 99);
 }
+
+
+ 
+.footer__my {
+    display: flex;
+    gap: 30px;
+ }
+ 
+ .footer__my-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+ 
+ .footer__my-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ 
+ .footer__my-text {
+    max-width: 230px;
+    width: 100%;
+    color: #FFF;
+    font-family: sans;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ 
+ .footer__my-link {
+    color: rgb(255, 196, 47);
+    font-family: sans;
+    font-size: 25px;
+    font-weight: 700;
+ }
+ 
+ .footer__my-link::after {
+    content: '';
+    margin-top: 5px;
+    width: 170px;
+    height: 3px;
+    background: rgb(255, 196, 47);
+    display: block;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .3s;
+ }
+ 
+ .footer__my-link:hover::after {
+    transform: scaleX(1);
+ }
