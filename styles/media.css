@@ -1,19 +1,4 @@
 @media (max-width:1400px) {
-
-    .section__card {
-        max-width: 270px;
-        width: 100%;
-
-    }
-
-    .section .container {
-        justify-content: space-around;
-    }
-
-    .card__img-none {
-        display: none;
-    }
-
 }
 
 @media (max-width:1200px) {
@@ -46,7 +31,6 @@
     }
 
     .section__card {
-        max-width: 230px;
         width: 100%;
         height: 370px;
     }
@@ -279,7 +263,7 @@
         flex-direction: column;
     }
 
-    .section .container {
+    .section {
         margin-bottom: 50px;
     }
 
@@ -292,14 +276,18 @@
     }
 
     .s__card_theme-img {
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
     }
 
     .section__card:hover .s__card_theme-img {
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
     } 
+    
+    .section {
+        margin-bottom: 30px;
+    }
 
 
 }
@@ -362,7 +350,7 @@
     } */
 
     .section__card {
-        height: 280px;
+        height: 250px;
     }
 
     .section__card_theme-link {
@@ -379,17 +367,25 @@
     }
 
     .s__card_theme-img {
-        width: 140px;
+        max-width: 140px;
+        width: 100%;
         height: 140px;
     }
 
     .section__card:hover .s__card_theme-img {
-        width: 150px;
-        height: 150px;
+        max-width: 140px;
+        width: 100%;
+        height: 140px;
     }
 
     .card__like {
         font-size: 20px;
+        padding: 8px;
+        opacity: 0.6;
+    }
+    
+    .card__like:hover {
+        opacity: 1;
     }
 
     .footer__links-none {
@@ -397,7 +393,11 @@
     }
 
     .section__card:hover .theme__link-none {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    
+    .section__card-theme {
+        gap: 5px;
     }
 
 }
@@ -434,11 +434,6 @@
         display: none;
     }
 
-    .section__card {
-        max-width: 148px;
-        width: 100%;
-        min-height: 250px;
-    }
 
         .section__card-subtitle {
             font-size: 14px;
@@ -519,14 +514,21 @@
 
     .section__card {
         padding: 10px;
+        width: 100%;
+        min-height: 250px;
     }
 
     .section__card-like {
         gap: 10px;
     }
 
-        .section .container {
+        .section {
             gap: 10px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .section__card-n1  {
+            display: none !important;
         }
 
 
@@ -546,14 +548,6 @@
         left: 5px;
         border-radius: 0;
     }
-
-    .section__card {
-        max-width: 150px;
-        width: 100%;
-        min-height: 80px;
-    }
-
-
 
     /* .nav__img-link_n {
         display: none;
@@ -592,13 +586,15 @@
     }
 
     .s__card_theme-img {
-        width: 125px;
-        height: 125px;
+        max-width: 150px;
+        width: 100%;
+        height: 150px;
     }
 
     .section__card:hover .s__card_theme-img {
-        width: 125px;
-        min-height: 125px;
+        max-width: 165px;
+        width: 100%;
+        height: 165px;
     }
 
     .card__like {
@@ -636,9 +632,12 @@
         display: none !important;
     } */
 
-    .section .container {
-        column-gap: 5px;
-        row-gap: 10px;
+    .section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .section__card-n1 {
+        display: flex !important;
     }
 
 
@@ -682,6 +681,11 @@
         font-size: 16px;
     }
 
+    .section__card-like {
+        top: unset;
+        bottom: 5px;
+        right: 0;
+    }
 
 
 }

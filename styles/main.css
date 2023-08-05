@@ -353,6 +353,7 @@ text-transform: uppercase;
     height: 440px;
     background: darkgray;
     transition: 0.2s;
+    padding: 10px;
 }
 
 .section__card:hover {
