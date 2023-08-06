@@ -456,12 +456,22 @@ font-size: 38px;
  }
  
  .section3__card1-text {
-    color: #1F1F1F;
+    color: azure;
 font-family: roboto;
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
  }
  
+ 
+ .section3__card1-link {
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: 700;
+    color: #b4d5e2;
+ }
+
+ 
+
  .section3__card1 {
     grid-column: 2 span;
  }
@@ -507,6 +517,7 @@ color: rgb(0, 6, 116);
     font-family: roboto;
     padding-left: 100px;
     width: 100%;
+    color: azure;
  }
 
 

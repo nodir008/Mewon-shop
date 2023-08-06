@@ -4,13 +4,6 @@
         height: 370px;
     }
     
-    .section3__card {
-        width: 100%;
-    }
-    
-    .section3__card2 {
-    }
-
 }
 
 @media (max-width: 1200px) {
@@ -409,9 +402,22 @@
     }
     
 
+    .section3__card1-img {
+        max-width: 160px;
+        width: 100%;
+    }
+
+    .section3__card1-link {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 488px) {
+
+    .section3__card1-img {
+        display: none;
+    }
 
     .header__section {
         grid-template-columns: repeat(2, 1fr);
@@ -497,6 +503,14 @@
     }
     
     .section3__card-2-text {
+        font-size: 16px;
+    }
+
+    .section3__card1-text {
+        font-size: 14px;
+    }
+
+    .section3__card1-link {
         font-size: 16px;
     }
 
