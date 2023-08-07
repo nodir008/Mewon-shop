@@ -1,23 +1,7 @@
-@media (max-width:1400px) {
-
-    .left__card-img {
-        max-width: 180px;
-    }
-
-    .right__card-img {
-        max-width: 200px;
-    }
-}
+@media (max-width:1400px) {}
 
 @media (max-width:1200px) {
 
-    .right__card-img {
-        max-width: 180px;
-    }
-
-    .left__card-img {
-        max-width: 160px;
-    }
 
 
     .header__section_left {
@@ -115,6 +99,10 @@
 
 @media (max-width:992px) {
 
+    .header__section-imgs2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .card__img-none {
         display: none;
     }
@@ -147,14 +135,6 @@
         gap: 15px;
     }
     
-    .left__card-img {
-        max-width: 120px;
-    }
-
-    .right__card-img {
-        max-width: 180px;
-    }
-
     .section3__card1-link {
         font-size: 18px;
     }
@@ -329,18 +309,15 @@
 
 @media (max-width:768px) {
 
-    .card__img-none {
-        display: flex;
-    }
 
-    .header__section .container {
+    /* .header__section .container {
         grid-template-columns: repeat(4, 1fr);
-    }
+    } */
 
-    .header__section-card2 {
+    /* .header__section-card2 {
         grid-column: 2 span;
         grid-row: 2 span;
-    }
+    } */
 
     
     .section3__card1-link {
@@ -466,20 +443,27 @@
         gap: 10px;
     }
 
-    .right__card-img {
-        max-width: 110px;
-    }
-
-    .left__card-img {
-        max-width: 110px;
-    }
 
 }
 
 @media (max-width:576px) {
 
     .header__section .container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__section-card2 {
+        grid-column: 2 span;
+        grid-row: 1 span;
+    }
+
+    .header__section-card3 {
+        grid-column: 2 span;
+
+    }
+
+    .card__img-none488 {
+        display: none;
     }
 
 
@@ -638,22 +622,41 @@
             margin-bottom: 20px;
         }
 
-        .header__section-card1 {
-            max-width: 400px;
-            margin: 0 auto;
+        .left__card-img-none {
+            display: flex;
+            max-width: 250px;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
         }
 
-
-
-        .header__section-card3 {
-            max-width: 400px;
-            margin: 0 auto;
+        .header__section-imgs {
+            grid-template-columns: repeat(3, 1fr);
         }
 
+        .header__section-imgs2 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .display-flex {
+            display: flex;
+        }
 
 }
 
 @media (max-width:488px) {
+
+    .display-flex {
+        display: flex !important;
+    }
+
+    .titleh {
+        padding-top: 0;
+    }
+
+    .header__section {
+        padding-top: 10px
+    }
 
     .header__section-card1 {
         gap: 5px;
