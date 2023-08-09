@@ -401,14 +401,13 @@ header {
 
 .section2__card {
     position: relative;
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     grid-column: 1 span;
     grid-row: 1 span;
     display: flex;
     justify-content: center;
-    background: darkgray;
-    ;
+    background: darkgray;;
     padding: 15px;
     transition: .1s;
 }

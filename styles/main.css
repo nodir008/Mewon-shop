@@ -912,3 +912,12 @@ letter-spacing: 2.5px;
 display: flex;
     background: #393838;
  }
+ 
+ .footer_-nav {
+    position: absolute;
+    right: 260px;
+    bottom: 480px;
+    background: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+ }
