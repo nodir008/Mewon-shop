@@ -85,6 +85,10 @@
     .footer__my-link::after {
         width: 125px;
     }
+
+                        .footer__btn {
+                            bottom: 495px;
+                        }
     
     
 }
@@ -233,6 +237,11 @@
 }
 
 @media (max-width: 768px) {
+
+            .footer__btn {
+                    bottom: 635px;
+                    right: 100px;
+                }
 
 
 
@@ -383,6 +392,11 @@
 
 @media (max-width: 576px) {
 
+            .footer__btn {
+                    bottom: 682px;
+                    right: 100px;
+                }
+
     footer .container {
         padding-top: 30px;
     }
@@ -437,6 +451,11 @@
 }
 
 @media (max-width: 488px) {
+
+            .footer__btn {
+                    bottom: 630px;
+                    right: 40px;
+                }
 
     footer {
         height: 640px;
