@@ -351,7 +351,7 @@
         align-content: space-between;
         flex-direction: column;
         justify-content: center;
-        padding-bottom: 120px;
+        padding-bottom: 100px;
         /* align-items: center;
         text-align: center; */
     }
@@ -468,6 +468,11 @@
 }
 
 @media (max-width:576px) {
+
+    footer .container {
+        padding-top: 10px;
+        padding-bottom: 120px;
+    }
 
     .header__section-card1 {
         padding: 8px;
@@ -621,7 +626,7 @@
         }
         
         .footer__my {
-            bottom: 10px;
+            bottom: 60px;
         }
         
         .section2__theme-txt1 {
