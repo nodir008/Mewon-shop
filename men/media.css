@@ -383,6 +383,10 @@
 
 @media (max-width: 576px) {
 
+    footer .container {
+        padding-top: 30px;
+    }
+
     .nav__form-btn-span {
         display: none;
     }
@@ -433,6 +437,15 @@
 }
 
 @media (max-width: 488px) {
+
+    footer {
+        height: 640px;
+    }
+
+        footer .container {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
 
     .nav__title {
         font-size: 28px;

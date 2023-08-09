@@ -735,3 +735,19 @@ footer .container {
 .footer__my-link:hover::after {
     transform: scaleX(1);
 }
+
+ .footer_-nav {
+     /* position: absolute; */
+     background: #fff;
+     font-size: 30px;
+     border-radius: 50%;
+ }
+
+ .footer__btn {
+    position: absolute;
+    right: 260px;
+    bottom: 400px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+ }

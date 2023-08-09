@@ -914,10 +914,16 @@ display: flex;
  }
  
  .footer_-nav {
-    position: absolute;
-    right: 260px;
-    bottom: 480px;
     background: #fff;
     font-size: 30px;
     border-radius: 50%;
  }
+
+  .footer__btn {
+      position: absolute;
+      right: 260px;
+      bottom: 460px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+  }

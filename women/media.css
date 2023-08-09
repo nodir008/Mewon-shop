@@ -54,7 +54,7 @@
     }
 
     .section2__card {
-        height: 400px;
+        min-height: 400px;
     }
 
     .card__like-like {
@@ -87,12 +87,29 @@
         width: 125px;
     }
 
+        .footer__btn {
+            bottom: 495px;
+        }
+
 
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+
+        .footer_-nav {
+                bottom: 576px;
+                right: 100px;
+            }
+
+}
 
 @media (max-width: 992px) {
+    
+
+        .footer_-nav {
+                bottom: 515px;
+                right: 100px;
+            }
 
     .nav__title {
         font-size: 34px;
@@ -154,7 +171,7 @@
     }
 
     .section2__card {
-        height: 360px;
+        min-height: 360px;
     }
 
     .section2__card-img {
@@ -235,6 +252,10 @@
 
 @media (max-width: 768px) {
 
+        .footer__btn {
+                bottom: 635px;
+                right: 100px;
+            }
 
 
     .nav .container {
@@ -286,7 +307,7 @@
 
     .section2__card {
         padding: 10px;
-        height: 280px;
+        min-height: 280px;
     }
 
     .section2__card-xl {
@@ -384,6 +405,15 @@
 
 @media (max-width: 576px) {
 
+    footer .container { 
+        padding-top: 20px;
+    }
+
+        .footer__btn {
+                bottom: 682px;
+                right: 100px;
+            }
+
     .nav__form-btn-span {
         display: none;
     }
@@ -406,11 +436,11 @@
     }
 
     .section2__card {
-        height: 310px;
+        min-height: 310px;
     }
 
     footer {
-        height: 700px;
+        height: 645px;
     }
 
     .footer__my {
@@ -434,6 +464,11 @@
 }
 
 @media (max-width: 488px) {
+
+        .footer__btn {
+                bottom: 630px;
+                right: 40px;
+            }
 
     .nav__title {
         font-size: 24px;
@@ -515,7 +550,7 @@
     }
 
     .section2__card {
-        height: 260px;
+        min-height: 260px;
     }
 
     .section__card-like {
