@@ -893,7 +893,7 @@ letter-spacing: 2.5px;
  .footer__my-link::after {
     content: '';
     margin-top: 5px;
-    width: 170px;
+    width: 155px;
     height: 3px;
     background: rgb(255, 196, 47);
     display: block;

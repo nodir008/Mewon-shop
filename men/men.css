@@ -448,12 +448,14 @@ font-size: 38px;
      padding: 13px;
      transition: .2s;
      color: #000;
+     opacity: .6;
 
  }
 
  .card__like-like:hover {
      background: rgb(119, 119, 119);
      color: #FFF;
+     opacity: 1;
      /* border: 1px solid black; */
  }
  
@@ -702,7 +704,7 @@ color: rgb(0, 6, 116);
  .footer__my-link::after {
     content: '';
     margin-top: 5px;
-    width: 170px;
+    width: 155px;
     height: 3px;
     background: rgb(255, 196, 47);
     display: block;

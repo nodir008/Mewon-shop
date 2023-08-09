@@ -301,7 +301,7 @@
     .footer__s .container {
         flex-direction: column;
         gap: 10px;
-        padding-top: 15px;
+        margin-top: 20px;
     }
 
     .section3__card-2-tag {
@@ -313,6 +313,10 @@
         padding:  0;
         font-size: 20px;
     }
+
+        .footer__my-link::after {
+            width: 123px ;
+        }
 
 }
 
@@ -451,6 +455,14 @@
     .header__section .container {
         gap: 10px;
     }
+
+        .header__section .container {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        
+                .header__section-card2 {
+                    grid-column: 2 span;
+                }
 
 
 }
@@ -680,6 +692,10 @@
 }
 
 @media (max-width:488px) {
+
+    .footer__s .container {
+        margin-top: 30px;
+    }
 
     .left__card-link {
         height: 24px;
