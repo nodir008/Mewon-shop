@@ -1,5 +1,5 @@
-let son = prompt('Assalomu aleykum')
+// let son = prompt('Assalomu aleykum')
 
-let sona = alert('Hush kelibsiz')
+// let sona = alert('Hush kelibsiz')
 
-let sona2 = alert('Sayt hali bitmagan 😉')
+// let sona2 = alert('Sayt hali bitmagan 😉')
